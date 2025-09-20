@@ -1,320 +1,165 @@
-# Feature/Product Plan Template
-
-## 📋 Overview
-
-**Feature/Product Name:** [Clear, descriptive name]
-
-**Status:** [Planning | In Development | Testing | Released | Deprecated]
-
-**Priority:** [P0 - Critical | P1 - High | P2 - Medium | P3 - Low]
-
-**Estimated Timeline:** [Start Date] - [End Date]
-
-**Owner:** [Team/Individual responsible]
+# <Product / Program Name> – AI Development Task Tracker
+**Version**: <1.0> | **Created**: <YYYY-MM-DD> | **AI Assistant**: <LLM name>
+**Project**: <High-level description> | **Timeline**: <X–Y weeks>
 
 ---
 
-## 🎯 Problem Statement
-
-### What problem are we solving?
-[Clearly articulate the problem this feature addresses. Be specific about user pain points, business needs, or technical gaps.]
-
-### Who is affected by this problem?
-- **Primary Users:** [Who directly experiences this problem?]
-- **Secondary Users:** [Who is indirectly affected?]
-- **Business Impact:** [How does this problem affect the business?]
-
-### Why is this important now?
-[Explain the urgency and strategic importance. Include any time-sensitive factors, competitive pressures, or dependencies.]
+## 🎯 Mission Critical Context
+**<One bold sentence clarifying the core business value and what this is not.>**
+**AI Development Philosophy**: Each task is designed for independent execution by <LLM name> with specific implementation details, file paths, and acceptance criteria.
 
 ---
 
-## 🚀 Solution Overview
+## 📊 Overall Progress Tracker
+- **Phase 0**: <Title> → [ ] Not Started
+- **Phase 1**: <Title> → [ ] Not Started
+- **Phase 2**: <Title> → [ ] Not Started
 
-### High-Level Approach
-[Describe your proposed solution in 2-3 sentences. Focus on the "what" not the "how".]
-
-### Key Benefits
-- **User Benefits:** [How will users' lives be improved?]
-- **Business Benefits:** [What business value will this create?]
-- **Technical Benefits:** [Any technical improvements or debt reduction?]
-
-### Success Metrics
-- **Primary KPIs:** [Main metrics to track success]
-- **Secondary Metrics:** [Additional indicators of success]
-- **Leading Indicators:** [Early signals that the feature is working]
+**Current Phase**: <Phase N> | **Active Branch**: <git-branch> | **Next Milestone**: <milestone>
 
 ---
 
-## 👥 Target Users
+## 🚀 Phase 0: <Title> (<2–3 weeks>)
+**Strategic Focus**: <What this phase achieves>
+**Branch**: `<repo-branch-name>` | **Estimated Time**: <X–Y days>
 
-### Primary Personas
-**[Persona Name 1]**
-- Demographics: [Age, role, technical proficiency, etc.]
-- Goals: [What they're trying to achieve]
-- Pain Points: [Current frustrations]
-- How this feature helps: [Specific benefits]
+### 📋 Phase Setup
+- [ ] Create feature branch: `<branch>` from `<base>`
+- [ ] Create GitHub PR: "Phase 0 – <Title>" (draft mode)
+- [ ] Set up project tracking in GitHub Projects with Phase 0 milestone
 
-**[Persona Name 2]**
-- Demographics: [Age, role, technical proficiency, etc.]
-- Goals: [What they're trying to achieve]
-- Pain Points: [Current frustrations]
-- How this feature helps: [Specific benefits]
+### 🏗️ Main Task 1: <Task Title> (<X–Y days>)
+**Objective**: <Objective statement>
 
-### Edge Cases & Special Considerations
-[Users with special needs, accessibility requirements, power users, etc.]
+#### Subtasks:
+- [ ] <Concrete subtask with file path or command>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
----
+### 🔧 Main Task 2: <Task Title> (<X–Y days>)
+**Objective**: <Objective statement>
 
-## 📐 Detailed Requirements
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### Functional Requirements
-1. **[Requirement Category 1]**
-   - [ ] [Specific requirement]
-   - [ ] [Specific requirement]
-   - [ ] [Specific requirement]
+### 🎨 Main Task 3: <Task Title> (<X–Y days>)
+**Objective**: <Objective statement>
 
-2. **[Requirement Category 2]**
-   - [ ] [Specific requirement]
-   - [ ] [Specific requirement]
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### Non-Functional Requirements
-- **Performance:** [Response times, load capacity, etc.]
-- **Security:** [Authentication, authorization, data protection]
-- **Accessibility:** [WCAG compliance, screen reader support, etc.]
-- **Scalability:** [Expected growth, load patterns]
-- **Reliability:** [Uptime requirements, error handling]
-
-### User Stories
-1. **As a [user type], I want [goal] so that [benefit]**
-   - Acceptance Criteria:
-     - [ ] [Criteria 1]
-     - [ ] [Criteria 2]
-     - [ ] [Criteria 3]
-
-2. **As a [user type], I want [goal] so that [benefit]**
-   - Acceptance Criteria:
-     - [ ] [Criteria 1]
-     - [ ] [Criteria 2]
+### ✅ Phase 0 Exit Criteria
+- [ ] <Binary criterion #1>
+- [ ] <Binary criterion #2>
+- [ ] CI/CD green with <target>% coverage on <scope>
+- [ ] Documentation complete and reviewed
+- [ ] Code review approved
+- [ ] Merge PR to main and tag release: `<v0.x.y-label>`
 
 ---
 
-## 🎨 User Experience Design
+## 🔐 Phase 1: <Title> (<4–5 weeks>)
+**Strategic Focus**: <Focus>
+**Branch**: `<branch>` | **Estimated Time**: <X–Y days>
 
-### User Journey
-1. **Entry Point:** [How users discover/access this feature]
-2. **Key Steps:** [Main flow through the feature]
-3. **Success State:** [What completion looks like]
-4. **Error Handling:** [What happens when things go wrong]
+### 📋 Phase Setup
+- [ ] Create feature branch: `<branch>` from `<base>`
+- [ ] Create GitHub PR: "Phase 1 – <Title>" (draft mode)
+- [ ] Update GitHub Projects with Phase 1 milestone
 
-### Wireframes/Mockups
-[Link to design files, or embed images]
+### 🔑 Main Task 1: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
 
-### Design Principles
-- [Principle 1]: [Description]
-- [Principle 2]: [Description]
-- [Principle 3]: [Description]
+#### Subtasks:
+- [ ] <API/SDK/package list if relevant>
+- [ ] <Types / models filepath>
+- [ ] <Core screens/components>
+- [ ] <State management slice / module>
+- [ ] <Automated tests scope>
+- [ ] Update progress in task tracker and commit changes
 
----
+### 📱 Main Task 2: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-## 🏗️ Technical Architecture
+### 👤 Main Task 3: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### High-Level Architecture
-[Describe the technical approach, system components, and data flow]
+### 🔔 Main Task 4: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### Technology Stack
-- **Frontend:** [Technologies, frameworks, libraries]
-- **Backend:** [Technologies, frameworks, databases]
-- **Infrastructure:** [Hosting, CDN, monitoring, etc.]
-- **Third-Party Services:** [APIs, integrations, tools]
-
-### Data Model
-[Describe key data structures, database schema changes, API contracts]
-
-### Security Considerations
-- **Authentication:** [How users are verified]
-- **Authorization:** [Permission model]
-- **Data Protection:** [Encryption, PII handling]
-- **Input Validation:** [Sanitization, validation rules]
-
-### Performance Considerations
-- **Expected Load:** [Concurrent users, requests per second]
-- **Optimization Strategies:** [Caching, CDN, database optimization]
-- **Monitoring:** [Key metrics to track]
-
----
-
-## 🧪 Testing Strategy
-
-### Test Types
-- [ ] **Unit Tests:** [Coverage expectations, key components]
-- [ ] **Integration Tests:** [API endpoints, service interactions]
-- [ ] **E2E Tests:** [Critical user flows]
-- [ ] **Performance Tests:** [Load testing, stress testing]
-- [ ] **Security Tests:** [Penetration testing, vulnerability scans]
-- [ ] **Accessibility Tests:** [Screen reader, keyboard navigation]
-
-### Test Scenarios
-1. **Happy Path:** [Normal usage scenarios]
-2. **Edge Cases:** [Boundary conditions, unusual inputs]
-3. **Error Conditions:** [Network failures, invalid data]
-4. **Load Testing:** [High traffic scenarios]
+### ✅ Phase 1 Exit Criteria
+- [ ] <Binary criteria list mirroring Phase 0 style>
+- [ ] Performance benchmarks: <metric targets>
+- [ ] Security audit passed (if relevant)
+- [ ] Code review approved
+- [ ] Merge PR to main and tag release: `<v0.x.y-label>`
 
 ---
 
-## 📊 Analytics & Monitoring
+## 🏗️ Phase 2: <Title> (<3–4 weeks>)
+**Strategic Focus**: <Focus>
+**Branch**: `<branch>` | **Estimated Time**: <X–Y days>
 
-### Key Metrics to Track
-- **Usage Metrics:** [Feature adoption, engagement]
-- **Performance Metrics:** [Load times, error rates]
-- **Business Metrics:** [Conversion, retention, revenue impact]
+### 📋 Phase Setup
+- [ ] Create feature branch: `<branch>` from `<base>`
+- [ ] Create GitHub PR: "Phase 2 – <Title>" (draft mode)
+- [ ] Update GitHub Projects with Phase 2 milestone
 
-### Monitoring Setup
-- **Application Monitoring:** [Error tracking, performance monitoring]
-- **Infrastructure Monitoring:** [Server health, database performance]
-- **User Behavior:** [Analytics tools, heat maps, user feedback]
+### 🧩 Main Task 1: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
 
-### Alerting
-- **Critical Alerts:** [System down, security breaches]
-- **Warning Alerts:** [Performance degradation, unusual patterns]
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
----
+### 🔄 Main Task 2: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
 
-## 🗓️ Implementation Plan
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### Phase 1: [Phase Name] (Timeline)
-**Objectives:** [What will be accomplished]
-**Deliverables:**
-- [ ] [Deliverable 1]
-- [ ] [Deliverable 2]
-- [ ] [Deliverable 3]
+### 🧱 Main Task 3: <Task Title> (<X–Y days>)
+**Objective**: <Objective>
 
-### Phase 2: [Phase Name] (Timeline)
-**Objectives:** [What will be accomplished]
-**Deliverables:**
-- [ ] [Deliverable 1]
-- [ ] [Deliverable 2]
+#### Subtasks:
+- [ ] <Concrete subtask>
+- [ ] <Concrete subtask>
+- [ ] Update progress in task tracker and commit changes
 
-### Phase 3: [Phase Name] (Timeline)
-**Objectives:** [What will be accomplished]
-**Deliverables:**
-- [ ] [Deliverable 1]
-- [ ] [Deliverable 2]
-
-### Milestones
-- [ ] **[Date]:** [Milestone description]
-- [ ] **[Date]:** [Milestone description]
-- [ ] **[Date]:** [Milestone description]
+### ✅ Phase 2 Exit Criteria
+- [ ] <Binary criteria list>
+- [ ] Performance benchmarks: <metric targets>
+- [ ] Code review approved
+- [ ] Merge PR to main and tag release: `<v0.x.y-label>`
 
 ---
 
-## ⚠️ Risks & Mitigation
-
-### Technical Risks
-| Risk | Probability | Impact | Mitigation Strategy |
-|------|-------------|--------|-------------------|
-| [Risk description] | High/Medium/Low | High/Medium/Low | [How to address] |
-| [Risk description] | High/Medium/Low | High/Medium/Low | [How to address] |
-
-### Business Risks
-| Risk | Probability | Impact | Mitigation Strategy |
-|------|-------------|--------|-------------------|
-| [Risk description] | High/Medium/Low | High/Medium/Low | [How to address] |
-| [Risk description] | High/Medium/Low | High/Medium/Low | [How to address] |
-
-### Dependencies
-- **Internal Dependencies:** [Other teams, systems, features]
-- **External Dependencies:** [Third-party services, vendors, partners]
-- **Resource Dependencies:** [Budget, personnel, tools]
-
----
-
-## 📚 Resources & References
-
-### Documentation
-- [Link to technical docs]
-- [Link to design specs]
-- [Link to API documentation]
-
-### Research & Analysis
-- [User research findings]
-- [Competitive analysis]
-- [Market research]
-
-### Related Features/Projects
-- [Links to related work]
-- [Previous iterations]
-- [Future roadmap items]
-
----
-
-## 📝 Decision Log
-
-### Key Decisions Made
-| Date | Decision | Rationale | Decision Maker |
-|------|----------|-----------|----------------|
-| [Date] | [Decision description] | [Why this was chosen] | [Person/Team] |
-| [Date] | [Decision description] | [Why this was chosen] | [Person/Team] |
-
-### Open Questions
-- [ ] **[Question]:** [Context and why it matters]
-- [ ] **[Question]:** [Context and why it matters]
-
----
-
-## 🚢 Launch Plan
-
-### Rollout Strategy
-- **Beta Testing:** [Who, when, how]
-- **Gradual Rollout:** [Percentage of users, geographic regions]
-- **Full Launch:** [Timeline and criteria]
-
-### Communication Plan
-- **Internal:** [How to inform team, stakeholders]
-- **External:** [User communication, marketing, documentation]
-
-### Success Criteria
-- [ ] [Measurable success criterion]
-- [ ] [Measurable success criterion]
-- [ ] [Measurable success criterion]
-
-### Rollback Plan
-[How to revert if things go wrong]
-
----
-
-## 🔄 Post-Launch
-
-### Monitoring Period
-[How long to closely monitor after launch]
-
-### Feedback Collection
-- **User Feedback:** [Surveys, support tickets, reviews]
-- **Team Feedback:** [Retrospectives, lessons learned]
-- **Data Analysis:** [Metric review, performance analysis]
-
-### Iteration Plan
-[How to incorporate feedback and improve]
-
-### Long-term Maintenance
-- **Ongoing Responsibilities:** [Who maintains what]
-- **Update Schedule:** [Regular improvements, security patches]
-- **End-of-Life Planning:** [When and how to deprecate]
-
----
-
-## ✅ Sign-off
-
-### Stakeholder Approval
-- [ ] **Product Manager:** [Name] - [Date]
-- [ ] **Engineering Lead:** [Name] - [Date]
-- [ ] **Design Lead:** [Name] - [Date]
-- [ ] **QA Lead:** [Name] - [Date]
-- [ ] **Security Review:** [Name] - [Date]
-- [ ] **Business Stakeholder:** [Name] - [Date]
-
----
-
-*Last Updated: [Date]*
-*Version: [Version Number]*
-*Document Owner: [Name/Team]*
+## 🧠 Prompt for LLM to Extend This Plan
+> You are an AI coding agent. **Append** additional phases (e.g., Phase 2.5, Phase 3, …) and any required tasks/subtasks **after this line**.
+> **Constraints:**
+> - **Do not modify** any content above.
+> - **Replicate the exact structure** used in Phases 0–2: *Phase Setup → Main Task 1..N (Objective + Subtasks) → Exit Criteria*.
+> - Use concrete, actionable subtasks with file paths, commands, and tests.
+> - End each task with: "Update progress in task tracker and commit changes."
+> - Maintain consistent branch naming and semantic version tags per phase.
+> - Add "Overall Progress Tracker" entries as you add phases.
+> - Keep estimates realistic and grouped by phase.

@@ -1,238 +1,154 @@
-# AI Feature Plan Template 🤖📋
+# AI Development Task Tracker Template
 
-A comprehensive, AI-optimized template for planning and documenting software features and products. This template is designed to work seamlessly with AI assistants while providing structure for human teams.
+A phase-based, AI-optimized template for planning and tracking feature/product development with concrete tasks, file paths, and acceptance criteria designed for independent execution by AI assistants.
 
-## 🎯 Purpose
+## 🎯 What is this template?
 
-This template helps teams create thorough, well-structured feature plans that:
-- ✅ Ensure all critical aspects are considered
-- ✅ Facilitate better AI assistance and code generation
-- ✅ Improve team communication and alignment
-- ✅ Provide clear documentation for future reference
-- ✅ Support agile development workflows
+This AI Development Task Tracker Template is designed to break down complex features/products into phased development with concrete, executable tasks. Each task includes specific implementation details, file paths, and acceptance criteria that allow AI assistants (like Claude, GPT-4, etc.) to work independently while maintaining clear progress tracking for human teams.
 
-## 🚀 Quick Start
+## 📋 Template Structure
 
-1. **Copy the template**: Use `FEATURE_PLAN_TEMPLATE.md` as your starting point
-2. **Fill in your details**: Replace all placeholder text with your specific information
-3. **Customize sections**: Add, remove, or modify sections based on your needs
-4. **Share and collaborate**: Use the completed plan to align your team
+The template follows a phase-based approach with:
 
-## 📁 Repository Structure
+1. **Mission Critical Context** - Core business value in one bold sentence
+2. **Overall Progress Tracker** - At-a-glance status of all phases
+3. **Phase 0-2 Templates** - Structured phases with:
+   - **Phase Setup** - Branch creation, PR setup, project tracking
+   - **Main Tasks** - Concrete objectives with specific subtasks
+   - **Exit Criteria** - Binary checkpoints for phase completion
+4. **LLM Extension Prompt** - Instructions for AI to add additional phases
 
-```
-ai-feature-plan-template/
-├── README.md                    # This file - how to use the template
-├── FEATURE_PLAN_TEMPLATE.md     # Main template file
-├── LICENSE                      # MIT License
-└── examples/
-    ├── README.md               # Guide to examples
-    └── user-authentication-feature.md  # Sample completed plan
-```
+Each phase includes:
+- Strategic focus and timeline estimates
+- Git branch naming conventions
+- 3-4 main tasks with concrete subtasks
+- File paths and commands where applicable
+- Progress tracking reminders
+- Clear exit criteria with version tags
 
-## 📋 Template Sections Explained
+## 🚀 How to Use This Template
 
-### 🎯 Overview
-- **Purpose**: High-level summary and status tracking
-- **AI Benefit**: Provides context for AI assistants to understand scope and priority
+### For Humans
 
-### 🚀 Problem Statement
-- **Purpose**: Define the "why" behind the feature
-- **AI Benefit**: Helps AI understand user needs and suggest appropriate solutions
-
-### 👥 Target Users
-- **Purpose**: Identify who will use this feature
-- **AI Benefit**: Enables AI to tailor suggestions to specific user types and needs
-
-### 📐 Detailed Requirements
-- **Purpose**: Specify exactly what needs to be built
-- **AI Benefit**: Provides clear specifications for AI code generation and testing
-
-### 🎨 User Experience Design
-- **Purpose**: Define the user interface and interaction patterns
-- **AI Benefit**: Helps AI suggest appropriate UI frameworks and patterns
-
-### 🏗️ Technical Architecture
-- **Purpose**: Outline the technical implementation approach
-- **AI Benefit**: Enables AI to generate more accurate code and suggest best practices
-
-### 🧪 Testing Strategy
-- **Purpose**: Define how the feature will be tested
-- **AI Benefit**: Allows AI to generate appropriate test cases and testing code
-
-### 📊 Analytics & Monitoring
-- **Purpose**: Define success metrics and monitoring
-- **AI Benefit**: Helps AI suggest appropriate tracking implementations
-
-### 🗓️ Implementation Plan
-- **Purpose**: Break down work into manageable phases
-- **AI Benefit**: Enables AI to help with project planning and task breakdown
-
-### ⚠️ Risks & Mitigation
-- **Purpose**: Identify potential issues and solutions
-- **AI Benefit**: Helps AI suggest alternative approaches and defensive coding
-
-## 🤖 AI Collaboration Tips
+1. **Copy the template** - Start with `FEATURE_PLAN_TEMPLATE.md`
+2. **Define the mission** - Write one bold sentence clarifying core business value
+3. **Plan phases** - Break work into 2-5 week phases
+4. **Create concrete tasks** - Include specific file paths, commands, and tools
+5. **Track progress** - Check off tasks as completed, update phase status
+6. **Use version control** - Create branches and PRs as specified
+7. **Extend as needed** - Use the LLM prompt to add more phases
 
 ### For AI Assistants
-When working with this template:
 
-1. **Read the entire plan first** to understand context and constraints
-2. **Reference specific sections** when generating code or suggestions
-3. **Check requirements** before proposing solutions
-4. **Consider the target users** when making UX recommendations
-5. **Align with the technical architecture** when writing code
+1. **Independent execution** - Each task is designed for autonomous completion
+2. **Follow structure** - Maintain the exact phase/task/subtask hierarchy
+3. **Update tracking** - Always end tasks with "Update progress in task tracker and commit changes"
+4. **Be concrete** - Include specific file paths, commands, and implementation details
+5. **Respect phases** - Complete current phase before moving to next
+6. **Extend systematically** - When adding phases, follow the template exactly
+7. **Version properly** - Use semantic versioning for phase releases
 
-### For Human Teams
-To get the best AI assistance:
+## 🎨 Customization Tips
 
-1. **Be specific in requirements** - AI works better with clear specifications
-2. **Include examples** where possible - AI learns from patterns
-3. **Update the plan** as you learn and iterate
-4. **Use consistent terminology** throughout the document
-5. **Link to external resources** that AI can reference
+### For Different Project Types
 
-## 📝 How to Use This Template
+- **New Features**: Use 3-4 phases with comprehensive tasks
+- **API Development**: Focus on endpoint definitions, types, and tests
+- **UI/UX Implementation**: Include component paths and state management
+- **Infrastructure Setup**: Add deployment commands and configuration files
+- **Migration Projects**: Phase by data/system migration steps
+- **Refactoring**: Break into safe, incremental transformation phases
 
-### Step 1: Planning Phase
-1. Copy `FEATURE_PLAN_TEMPLATE.md` to a new file
-2. Fill in the Overview section to establish scope
-3. Complete the Problem Statement to define the "why"
-4. Work through each section systematically
+### Scaling the Template
 
-### Step 2: Collaboration Phase
-1. Share the draft with your team for review
-2. Use the template as a discussion framework
-3. Update sections based on feedback
-4. Get sign-off from stakeholders
+- **Small Features** (< 2 weeks): Use Phase 0 only with 2-3 tasks
+- **Medium Features** (2-6 weeks): Use Phases 0-1 with standard structure
+- **Large Features** (6-12 weeks): Use all phases plus LLM extension
+- **Programs** (> 3 months): Create multiple linked templates with dependencies
 
-### Step 3: Implementation Phase
-1. Use the plan to guide development work
-2. Update the plan as you learn and iterate
-3. Reference the plan when working with AI assistants
-4. Track progress against the implementation plan
+## 🤝 Best Practices
 
-### Step 4: Launch Phase
-1. Use the launch plan section to coordinate rollout
-2. Monitor the success metrics you defined
-3. Collect feedback and update the plan
-4. Document lessons learned
+### Writing Effective Task Plans
 
-## 🎨 Customization Guidelines
+1. **One objective per task** - Keep tasks focused and measurable
+2. **Concrete subtasks** - Include file paths, not abstract descriptions
+3. **Binary exit criteria** - Clear yes/no checkpoints
+4. **Realistic timelines** - Account for testing and review
+5. **Git workflow** - Always specify branches and PR strategies
+6. **Progress commits** - Regular updates to track advancement
+7. **AI-friendly details** - Provide context an AI needs to work independently
 
-### Adding Sections
-Feel free to add sections specific to your organization:
-- **Compliance & Legal**: For regulated industries
-- **Marketing Plan**: For customer-facing features
-- **Training Plan**: For features requiring user education
-- **Internationalization**: For global products
+### AI Collaboration Tips
 
-### Removing Sections
-Some sections may not apply to your project:
-- **User Experience Design**: For backend-only features
-- **Analytics & Monitoring**: For internal tools
-- **Launch Plan**: For minor improvements
+1. **Complete context** - Include all needed info in the task description
+2. **File paths** - Always specify exact locations for code changes
+3. **Command examples** - Provide actual commands to run
+4. **Test specifications** - Define what tests to write/run
+5. **Dependencies** - List required packages/APIs upfront
+6. **Acceptance criteria** - Make success measurable and clear
+7. **Version control** - Specify commit message formats
 
-### Modifying Sections
-Adapt sections to your workflow:
-- Change the risk assessment format
-- Add your specific testing types
-- Include your organization's approval process
+## 💡 Example Use Cases
+
+- **Authentication System**: Phase 0 (Setup), Phase 1 (Core Auth), Phase 2 (Advanced Features)
+- **Payment Integration**: Phase 0 (PSP Setup), Phase 1 (Checkout), Phase 2 (Subscriptions)
+- **Mobile App Feature**: Phase 0 (UI), Phase 1 (State), Phase 2 (API Integration)
+- **Database Migration**: Phase 0 (Schema), Phase 1 (Data), Phase 2 (Cutover)
+- **API Development**: Phase 0 (Core Endpoints), Phase 1 (Auth), Phase 2 (Advanced)
+- **CI/CD Pipeline**: Phase 0 (Build), Phase 1 (Test), Phase 2 (Deploy)
 
 ## 🔧 Integration with Tools
 
-### Project Management
-- Import checkboxes into Jira, Asana, or Trello
-- Use milestones as project deadlines
-- Track deliverables as project tasks
+This template integrates with:
 
-### Documentation Systems
-- Store in Confluence, Notion, or GitBook
-- Link to from your main product documentation
-- Version control alongside your code
+- **Version Control**: GitHub/GitLab (branches, PRs, releases as specified)
+- **Project Tracking**: GitHub Projects, Jira (milestones match phases)
+- **CI/CD**: Automated via git tags (v0.x.y per phase)
+- **AI Assistants**: Claude, GPT-4, Copilot (can execute tasks independently)
+- **Documentation**: Markdown renders in all modern tools
+- **IDE Integration**: VS Code task runner, IntelliJ TODOs
 
-### AI Development Tools
-- Reference in ChatGPT, Claude, or GitHub Copilot conversations
-- Include relevant sections in AI prompts
-- Use as context for code generation
+## ✨ Benefits
 
-## 📊 Benefits of Using This Template
+### For Development Teams
+- **Clear phases** with specific deliverables and timelines
+- **Concrete tasks** that can be assigned and tracked
+- **Progress visibility** through checkbox tracking
+- **Git workflow** integration with branches and releases
 
-### For Product Managers
-- ✅ Ensure all aspects of feature planning are covered
-- ✅ Improve communication with engineering and design teams
-- ✅ Create consistent documentation across features
-- ✅ Better requirements gathering and stakeholder alignment
+### For AI Assistants
+- **Independent execution** capability for each task
+- **Specific implementation** details and file paths
+- **Clear acceptance** criteria for task completion
+- **Extensibility** through structured prompts
 
-### For Engineers
-- ✅ Clear technical requirements and constraints
-- ✅ Better estimates through detailed planning
-- ✅ Reduced back-and-forth during implementation
-- ✅ Improved AI assistance with detailed context
+### For Project Managers
+- **Phase-based planning** with clear milestones
+- **Progress tracking** at task and phase level
+- **Risk mitigation** through exit criteria
+- **Version control** with semantic versioning
 
-### For Designers
-- ✅ Clear user personas and use cases
-- ✅ Technical constraints upfront
-- ✅ Alignment on success metrics
-- ✅ Integration with development workflow
+### For Stakeholders
+- **Transparent progress** with overall tracker
+- **Predictable delivery** through phased approach
+- **Quality gates** via exit criteria
+- **Clear documentation** of what's being built
 
-### For QA Teams
-- ✅ Clear acceptance criteria and test scenarios
-- ✅ Non-functional requirements defined
-- ✅ Edge cases and error conditions specified
-- ✅ Success metrics for validation
+## 📂 Repository Contents
 
-## 🤝 Contributing
+- `FEATURE_PLAN_TEMPLATE.md` - The main template file
+- `examples/` - Sample completed plans for reference
+- `LICENSE` - MIT license for open source use
 
-We welcome contributions to improve this template! Please:
+## 🤔 Contributing
 
-1. **Fork this repository**
-2. **Create a feature branch**: `git checkout -b improve-template`
-3. **Make your changes**: Add sections, improve explanations, fix typos
-4. **Submit a pull request**: Describe your improvements
-
-### Types of Contributions
-- **New sections**: For common use cases we haven't covered
-- **Better examples**: Real-world examples that illustrate best practices
-- **Tool integrations**: How to use the template with specific tools
-- **Language translations**: Versions in other languages
-
-## 📚 Additional Resources
-
-### Related Templates
-- [Technical Design Document Template](https://github.com/example/tech-design-template)
-- [API Design Template](https://github.com/example/api-design-template)
-- [Testing Plan Template](https://github.com/example/testing-template)
-
-### Best Practices
-- [Feature Planning Best Practices](https://example.com/feature-planning)
-- [Working with AI Assistants](https://example.com/ai-collaboration)
-- [Agile Documentation](https://example.com/agile-docs)
-
-### Tools & Integrations
-- [Figma Plugin](https://example.com/figma-integration)
-- [Slack Integration](https://example.com/slack-integration)
-- [Jira Templates](https://example.com/jira-templates)
+Contributions are welcome! Please feel free to submit a Pull Request with improvements to the template.
 
 ## 📄 License
 
-This template is released under the [MIT License](LICENSE). You're free to use, modify, and distribute it as needed.
-
-## 🙋‍♀️ Support
-
-- **Issues**: Report bugs or request features in [GitHub Issues](https://github.com/yourusername/ai-feature-plan-template/issues)
-- **Discussions**: Ask questions in [GitHub Discussions](https://github.com/yourusername/ai-feature-plan-template/discussions)
-- **Community**: Join our [Discord Server](https://discord.gg/example) for real-time help
-
-## 🏆 Examples in the Wild
-
-See how teams are using this template:
-- [Example Company Feature Plan](https://example.com/feature-plan)
-- [Open Source Project Planning](https://github.com/example/project)
-- [Startup Product Planning](https://blog.example.com/product-planning)
+This template is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Made with ❤️ by the developer community**
-
-*Help us improve this template by sharing your experience and contributing improvements!*
+**Created by**: The Development Community
+**Repository**: [ai-feature-plan-template](https://github.com/BO5AMIS/ai-feature-plan-template)
