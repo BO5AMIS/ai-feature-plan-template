@@ -6,7 +6,7 @@
 
 ## 🎯 Mission Critical Context
 **Building a secure, scalable authentication system with JWT tokens, OAuth support, and role-based access control - NOT a simple login form.**
-**AI Development Philosophy**: Each task is designed for independent execution by Claude 3 with specific implementation details, file paths, and acceptance criteria.
+**AI Development Philosophy**: Each task is designed for independent execution by Opus 4.1 with specific implementation details, file paths, and acceptance criteria.
 
 ---
 
